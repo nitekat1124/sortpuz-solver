@@ -1,0 +1,8 @@
+[pink,lime,violet,gray]
+[gray,pink,brown,gray]
+[blue,lime,brown,brown]
+[lime,violet,pink,blue]
+[pink,violet,gray,blue]
+[lime,brown,blue,violet]
+[empty,empty,empty,empty]
+[empty,empty,empty,empty]

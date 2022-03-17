@@ -1,0 +1,8 @@
+[cyan,cyan,yellow,violet]
+[brown,yellow,blue,violet]
+[yellow,blue,brown,blue]
+[orange,blue,yellow,violet]
+[orange,brown,orange,brown]
+[orange,violet,cyan,cyan]
+[empty,empty,empty,empty]
+[empty,empty,empty,empty]
