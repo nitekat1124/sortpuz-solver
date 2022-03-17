@@ -138,13 +138,18 @@ class Solver:
         else:
             output += [f"step {self.print_state['index']}:"]
 
+        move_pos = [0, 0]
         for pos in range(self.h):
             line = ""
             for i in range(self.w):
                 text = self.mapping[bottles[i][pos]]
                 is_moved = "\033[7m" if self.print_state["prev"] is not None and bottles[i][pos] != self.print_state["prev"][i][pos] else ""
                 line += is_moved + self.colorize(text) + " " * (size - len(text))
+                if is_moved:
+                    move_pos[text != "empty"] = i + 1
             output += [line]
+        if sum(move_pos):
+            output[0] += f" move from {move_pos[0]} to {move_pos[1]}"
 
         self.print_state["prev"] = bottles
         print(*output + [""], sep="\n")
