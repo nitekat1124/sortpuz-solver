@@ -1,6 +1,6 @@
 # SortPuz Solver
 
-A simple solver for color sorting game like [SortPuz](https://apps.apple.com/us/app/sortpuz-water-puzzles-games/id1560298214), runs in terminal
+A simple solver for color water sorting puzzle game like [SortPuz](https://apps.apple.com/us/app/sortpuz-water-puzzles-games/id1560298214), runs in terminal
 
 ## Screenshot
 ![screenshot.png](screenshot.png)
